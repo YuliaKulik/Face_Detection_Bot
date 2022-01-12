@@ -1,13 +1,13 @@
-# Face-Detection-Telegram-Bot
+# Телеграм-бот, распознающий лица
 
-- Custom dataset: 
+## Описание
 
-  932 photo marked up on RoboFlow with stretch to 416x416 and augmentation
-  
-  7 classes
+Телеграм-бот, который распознает лица по фотографии.
 
-- Fine-tunning YOLOv4-darknet
-- Output of model predictions from telegram-bot
+## Сбор данных и обучение нейросети
 
-Link on bot: <https://t.me/ds_06_bot>
+Для проекта было размечено 932 фотографии при помощи ресурса RoboFlow (416х416 + аугментация). Всего было выделено 7 классов. Была использована модель YOLOv4-darknet, дообученная на собранном датасете.
 
+## Телеграм-бот
+
+Ссылка на TG-бот: <https://t.me/ds_06_bot>
